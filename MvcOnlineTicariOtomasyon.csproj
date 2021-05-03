@@ -456,6 +456,14 @@
     <Content Include="thumber\images\person_3.jpg" />
     <Content Include="thumber\images\person_4.jpg" />
     <Content Include="thumber\images\person_5.jpg" />
+    <Content Include="thumber\images\resimm1.jpg" />
+    <Content Include="thumber\images\resimm2.jpg" />
+    <Content Include="thumber\images\resimm3.jfif" />
+    <Content Include="thumber\images\resimm4.jpg" />
+    <Content Include="thumber\images\resimm5.jpg" />
+    <Content Include="thumber\images\resimm6.jpg" />
+    <Content Include="thumber\images\resimm7.jpg" />
+    <Content Include="thumber\images\resimm8.jpg" />
     <Content Include="thumber\index.html" />
     <Content Include="thumber\js\aos.js" />
     <Content Include="thumber\js\bootstrap-datepicker.min.js" />
