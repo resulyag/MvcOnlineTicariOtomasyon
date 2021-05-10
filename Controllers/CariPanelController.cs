@@ -20,12 +20,12 @@ namespace MvcOnlineTicariOtomasyon.Controllers
             ViewBag.m = mail;
             var mailid = c.Carilers.Where(x => x.CariMail == mail).Select(y => y.Cariid).FirstOrDefault();
             ViewBag.mid = mailid;
-            var toplamsatis = c.SatisHarekets.Where(x => x.Cariid == mailid).Count();
-            ViewBag.toplamsatis = toplamsatis;
-            var toplamtutar = c.SatisHarekets.Where(x => x.Cariid == mailid).Sum(y => y.ToplamTutar);
-            ViewBag.toplamtutar = toplamtutar;
-            var toplamurunsayisi = c.SatisHarekets.Where(x => x.Cariid == mailid).Sum(y => y.Adet);
-            ViewBag.toplamurunsayisi = toplamurunsayisi;
+            //var toplamsatis = c.SatisHarekets.Where(x => x.Cariid == mailid).Count();
+            //ViewBag.toplamsatis = toplamsatis;
+            //var toplamtutar = c.SatisHarekets.Where(x => x.Cariid == mailid).Sum(y => y.ToplamTutar);
+            //ViewBag.toplamtutar = toplamtutar;
+            //var toplamurunsayisi = c.SatisHarekets.Where(x => x.Cariid == mailid).Sum(y => y.Adet);
+            //ViewBag.toplamurunsayisi = toplamurunsayisi;
             var adsoyad = c.Carilers.Where(x => x.CariMail == mail).Select(y => y.CariAd + " " + y.CariSoyad).FirstOrDefault();
             ViewBag.adsoyad = adsoyad;
             return View(degerler);

@@ -31,6 +31,7 @@ namespace MvcOnlineTicariOtomasyon.Controllers
                                                Value = x.KategoriID.ToString()
                                            }).ToList();
             ViewBag.dgr1 = deger1;
+            ViewBag.hint = "True veya False Giriniz!!";
             return View();
         }
 
